@@ -1,0 +1,10 @@
+vosk
+pyaudio
+SpeechRecognition
+pyautogui
+pyperclip
+clipboard
+python-vlc
+gTTS
+soundfile
+numpy
