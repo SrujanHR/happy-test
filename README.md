@@ -23,36 +23,7 @@ This comprehensive document serves as the complete repository blueprint, contain
 - **Acoustic Model**: Vosk English model (e.g., `vosk-model-en-in-0.5` extracted into the `models/` directory)
 
 
-## 3. Repository Files
-
-### `requirements.txt`
-```text
-vosk
-pyaudio
-SpeechRecognition
-pyautogui
-pyperclip
-clipboard
-python-vlc
-gTTS
-soundfile
-numpy
-```
-
-
-### `.gitignore`
-
-```text
-__pycache__/
-venv/
-*.pyc
-combined_audio.wav
-audio_*.wav
-runtime.txt
-current_vol.txt
-.DS_Store
-
-```
+## 3. Repository Files That need to be updated
 
 ### `runtime.txt`
 
