@@ -1,0 +1,6 @@
+__pycache__/
+venv/
+*.pyc
+runtime.txt
+current_vol.txt
+.DS_Store
