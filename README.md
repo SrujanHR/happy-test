@@ -6,7 +6,6 @@ Happy is a personal AI voice assistant for Windows, built with Python. It listen
 
 This comprehensive document serves as the complete repository blueprint, containing the setup guide, configuration files, and application source code.
 
----
 
 ## 1. Project Overview & Features
 
@@ -16,7 +15,6 @@ This comprehensive document serves as the complete repository blueprint, contain
 - **Gemini Integration**: Dynamic browser automation via Chrome to query Google Gemini.
 - **State Management**: Automated persistence for active session runtimes and volume levels.
 
----
 
 ## 2. System Requirements
 
@@ -25,7 +23,6 @@ This comprehensive document serves as the complete repository blueprint, contain
 - **Applications**: Google Chrome, VLC Media Player (64-bit standard installation)
 - **Acoustic Model**: Vosk English model (e.g., `vosk-model-en-in-0.5` extracted into the `models/` directory)
 
----
 
 ## 3. Repository Files
 
@@ -191,7 +188,6 @@ if __name__ == '__main__':
 
 ```
 
----
 
 ## 4. Installation & Deployment Steps
 
@@ -234,12 +230,7 @@ python -m src.happy
 
 
 
----
 
 ## 5. License
 
 This project is licensed under the MIT License.
-
-```
-
-```
