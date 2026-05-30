@@ -1,0 +1,3 @@
+[Set this to your current system voice level the program will update this as you keep using it.]
+Eg:
+50
