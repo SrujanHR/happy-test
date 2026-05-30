@@ -23,33 +23,15 @@ This comprehensive document serves as the complete repository blueprint, contain
 - **Acoustic Model**: Vosk English model (e.g., `vosk-model-en-in-0.5` extracted into the `models/` directory)
 
 
-## 3. Repository Files That need to be updated
-
-### `runtime.txt`
-
-```text
-[Set this to 0 the program will update this as you keep using it.]
-This is the gTTS usage counter to make sure you don't cross your free usage limit.
-Eg:
-0
-```
-
-### `current_vol.txt`
-
-```text
-[Set this to your current system voice level the program will update this as you keep using it.]
-Eg:
-50
-
-```
-
-
 ## 4. Installation & Deployment Steps
-
+0. **Make sure you have git installed** 
+Git is not the same as GitHub.
+you can install git from here : https://git-scm.com/install/
+I DO NOT recommend using the latest Python versions as some dependencies take time to integrate them into their workflow NOTE I am talking about the 3.XX not the 3.00.XX
 1. **Clone & Navigate:**
 ```bash
 git clone [https://github.com/](https://github.com/)<your-username>/happy-assistant.git
-cd happy-assistant
+cd Happy-AI-Voice-Assistant-main
 
 ```
 
@@ -75,11 +57,37 @@ pip install pipwin
 pipwin install pyaudio
 
 ```
+4. **Install VOSK model**
+https://alphacephei.com/vosk/models
+I have used the "vosk-model-en-in-0.5"
+download the .zip and extract into the root folder
 
+5. **Repository Files That need to be updated**
+      
+      ### `runtime.txt`
+      
+      ```text
+      [Set this to 0 the program will update this as you keep using it.]
+      This is the gTTS usage counter to make sure you don't cross your free usage limit.
+      Eg:
+      0
+      ```
+      
+      ### `current_vol.txt`
+      
+      ```text
+      [Set this to your current system voice level the program will update this as you keep using it.]
+      Eg:
+      50
+      
+      ```
+     ### `Happy_AI.py`
+       chrome_path = r""  # Update the path to your Chrome installation
+       usually: C:\Program Files\Google\Chrome\Application\chrome.exe
 
-4. **Execution:**
+7. **Execution:**
 ```bash
-python -m src.happy
+python -m "Bard assistant.py"
 
 ```
 
