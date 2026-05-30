@@ -57,13 +57,17 @@ current_vol.txt
 ### `runtime.txt`
 
 ```text
+[Set this to 0 the program will update this as you keep using it.]
+This is the gTTS usage counter to make sure you don't cross your free usage limit.
+Eg:
 0
-
 ```
 
 ### `current_vol.txt`
 
 ```text
+[Set this to your current system voice level the program will update this as you keep using it.]
+Eg:
 50
 
 ```
