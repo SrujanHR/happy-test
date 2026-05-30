@@ -1,5 +1,4 @@
 
-```markdown
 # Happy — AI Voice Assistant
 
 Happy is a personal AI voice assistant for Windows, built with Python. It listens for a wakeword, recognizes voice commands, speaks responses, and interacts with Google Gemini through Chrome automation.
@@ -38,8 +37,8 @@ python-vlc
 gTTS
 soundfile
 numpy
-
 ```
+
 
 ### `.gitignore`
 
